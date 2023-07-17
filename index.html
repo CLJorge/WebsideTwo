@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto de JavaScript</title>
+	<!-- Estilos CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link  id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+
+    <!-- JQUERY -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+	<!-- SLIDER -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- CSS -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+	<!-- MIS SCRIPTS -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- MOMENT JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es.min.js"></script>
+
+ 
+    
+</head>
+<body>
+
+	<div id="selector-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+		
+	</div>
+
+	<section id="global">
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+				
+			</div>
+			<div class="clearfix"></div>
+
+			<!-- LA CABECERA -->
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- SLIDER -->
+
+		<div id="slider">
+			<div class="galeria">
+			  <div><img src="img/hojas.jpg" title="Hojas" /></div>
+			  <div><img src="img/rojo.jpg" title="Red" /></div>
+			  <div><img src="img/cielo.jpg" title="sky" /></div>
+			</div>
+			
+		</div>
+
+		<!-- CONTENIDO -->
+
+		<section id="content">
+			<div id="posts">
+
+			<!-- CARGAR POST DESDE EL JSON -->
+				
+			</div>
+		
+			
+
+			<aside id="aside">
+				<div id="about">
+					<h4><span>¿Quien soy?</span></h4>
+					<img src="img/caracol.jpg"/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					
+				</div>
+
+				<div id="login">
+					<h4><apan>Identificate</apan></h4>
+					<form>
+						<label for="name">	Nombre </label>
+
+						<input type="text" name="name" id="form_name" />
+						
+						<label for="correo">Correo
+						</label>
+
+						<input type="text" name="correo"  />
+						
+						<label for="contraseña">Contraseña
+						</label>
+
+						<input type="password" name="password"/>
+
+						<input type="submit" value="Entrar" />
+						
+					</form>
+				</div>
+				
+			</aside>
+
+			<div class="clearfix"></div>
+		</section>
+		
+	</section>
+
+	<footer>
+		Master JavaScript de Victor Robles
+
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+
+</body>
+</html>
